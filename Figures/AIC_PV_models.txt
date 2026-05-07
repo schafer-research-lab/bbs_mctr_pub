@@ -1,0 +1,34 @@
+
+Model selection based on AICc:
+
+                                                                              K
+Niche Abundance + Niche Diversity + Dominant Volatility                       5
+Niche Diversity*Niche Abundance + Dominant Volatility*Niche Abundance         7
+Niche Abundance + Niche Diversity + Dominant Volatility + Biome               7
+Niche Diversity*Niche Abundance + Dominant Volatility*Niche Abundance + Biome 9
+                                                                                AICc
+Niche Abundance + Niche Diversity + Dominant Volatility                       296.67
+Niche Diversity*Niche Abundance + Dominant Volatility*Niche Abundance         301.13
+Niche Abundance + Niche Diversity + Dominant Volatility + Biome               301.14
+Niche Diversity*Niche Abundance + Dominant Volatility*Niche Abundance + Biome 305.77
+                                                                              Delta_AICc
+Niche Abundance + Niche Diversity + Dominant Volatility                             0.00
+Niche Diversity*Niche Abundance + Dominant Volatility*Niche Abundance               4.47
+Niche Abundance + Niche Diversity + Dominant Volatility + Biome                     4.47
+Niche Diversity*Niche Abundance + Dominant Volatility*Niche Abundance + Biome       9.10
+                                                                              AICcWt
+Niche Abundance + Niche Diversity + Dominant Volatility                         0.82
+Niche Diversity*Niche Abundance + Dominant Volatility*Niche Abundance           0.09
+Niche Abundance + Niche Diversity + Dominant Volatility + Biome                 0.09
+Niche Diversity*Niche Abundance + Dominant Volatility*Niche Abundance + Biome   0.01
+                                                                              Cum.Wt
+Niche Abundance + Niche Diversity + Dominant Volatility                         0.82
+Niche Diversity*Niche Abundance + Dominant Volatility*Niche Abundance           0.90
+Niche Abundance + Niche Diversity + Dominant Volatility + Biome                 0.99
+Niche Diversity*Niche Abundance + Dominant Volatility*Niche Abundance + Biome   1.00
+                                                                                   LL
+Niche Abundance + Niche Diversity + Dominant Volatility                       -143.07
+Niche Diversity*Niche Abundance + Dominant Volatility*Niche Abundance         -143.07
+Niche Abundance + Niche Diversity + Dominant Volatility + Biome               -143.07
+Niche Diversity*Niche Abundance + Dominant Volatility*Niche Abundance + Biome -143.07
+

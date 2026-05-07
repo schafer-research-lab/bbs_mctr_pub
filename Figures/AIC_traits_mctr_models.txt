@@ -1,0 +1,34 @@
+
+Model selection based on AICc:
+
+                                                                        K
+w + var_r + reprod_rate                                                 5
+w + var_r + reprod_rate + breeding_biome                                7
+w + var_r + reprod_rate + longevity_y + breeding_biome                  8
+w + var_r + BodyMass_Value + reprod_rate + longevity_y + breeding_biome 9
+                                                                           AICc
+w + var_r + reprod_rate                                                 -729.65
+w + var_r + reprod_rate + breeding_biome                                -727.91
+w + var_r + reprod_rate + longevity_y + breeding_biome                  -727.39
+w + var_r + BodyMass_Value + reprod_rate + longevity_y + breeding_biome -725.23
+                                                                        Delta_AICc
+w + var_r + reprod_rate                                                       0.00
+w + var_r + reprod_rate + breeding_biome                                      1.74
+w + var_r + reprod_rate + longevity_y + breeding_biome                        2.26
+w + var_r + BodyMass_Value + reprod_rate + longevity_y + breeding_biome       4.41
+                                                                        AICcWt
+w + var_r + reprod_rate                                                   0.54
+w + var_r + reprod_rate + breeding_biome                                  0.23
+w + var_r + reprod_rate + longevity_y + breeding_biome                    0.17
+w + var_r + BodyMass_Value + reprod_rate + longevity_y + breeding_biome   0.06
+                                                                        Cum.Wt
+w + var_r + reprod_rate                                                   0.54
+w + var_r + reprod_rate + breeding_biome                                  0.77
+w + var_r + reprod_rate + longevity_y + breeding_biome                    0.94
+w + var_r + BodyMass_Value + reprod_rate + longevity_y + breeding_biome   1.00
+                                                                            LL
+w + var_r + reprod_rate                                                 370.05
+w + var_r + reprod_rate + breeding_biome                                371.39
+w + var_r + reprod_rate + longevity_y + breeding_biome                  372.26
+w + var_r + BodyMass_Value + reprod_rate + longevity_y + breeding_biome 372.33
+

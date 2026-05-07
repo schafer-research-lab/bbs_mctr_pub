@@ -1,0 +1,21 @@
+
+Call:
+lm(formula = pv_z ~ gmn_z + hsn_z + wmv_z, data = biome_metrics_long)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.2679 -0.5199 -0.1288  0.3510  2.9434 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -3.441e-18  7.401e-02   0.000  1.00000    
+gmn_z        8.994e-02  7.900e-02   1.138  0.25730    
+hsn_z        2.515e-01  7.593e-02   3.313  0.00123 ** 
+wmv_z        5.917e-01  7.951e-02   7.441 1.89e-11 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8108 on 116 degrees of freedom
+Multiple R-squared:  0.3482,	Adjusted R-squared:  0.3314 
+F-statistic: 20.66 on 3 and 116 DF,  p-value: 8.551e-11
+

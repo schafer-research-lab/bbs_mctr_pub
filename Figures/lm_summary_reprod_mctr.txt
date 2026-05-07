@@ -1,0 +1,35 @@
+
+Call:
+lm(formula = mctr ~ w + var_r + BodyMass_Value + reprod_rate + 
+    longevity_y + breeding_biome, data = scaled_dat)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.065497 -0.007056 -0.001751  0.007410  0.062544 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)
+(Intercept)                   0.0169416  0.0023224   7.295 2.70e-11
+w                             0.0088289  0.0016491   5.354 3.82e-07
+var_r                         0.0118207  0.0016578   7.130 6.38e-11
+BodyMass_Value                0.0006571  0.0018318   0.359  0.72040
+reprod_rate                   0.0046915  0.0015943   2.943  0.00386
+longevity_y                  -0.0021525  0.0016487  -1.306  0.19403
+breeding_biomeEastern Forest -0.0046599  0.0034695  -1.343  0.18159
+breeding_biomeGrassland      -0.0039128  0.0038471  -1.017  0.31103
+                                
+(Intercept)                  ***
+w                            ***
+var_r                        ***
+BodyMass_Value                  
+reprod_rate                  ** 
+longevity_y                     
+breeding_biomeEastern Forest    
+breeding_biomeGrassland         
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.01646 on 129 degrees of freedom
+Multiple R-squared:  0.5325,	Adjusted R-squared:  0.5071 
+F-statistic: 20.99 on 7 and 129 DF,  p-value: < 2.2e-16
+
